@@ -1,0 +1,11 @@
+图形化界面-C/S架构，C（client客户端）,S(server服务器)
+网页-B/S架构,B(browser浏览器)
+
+http://info.cern.ch/hypertext/WWW/TheProject.html	蒂姆.伯纳斯—李
+浏览器渲染
+
+94年万维网联盟（W3C）
+
+结构-html用于描述页面的结构
+表现-CSS用于控制页面中的元素的样式
+行为-JavaScript用于响应用户操作

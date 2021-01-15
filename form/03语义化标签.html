@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        在网页中，html专门用来负责网页的结构
+            所以在使用html标签时，应该关注的是标签的语义，而不是它的样式
+            标题标签:
+                h1~h6一共六级标题
+                从h1-h6重要性递减，
+                h1在网页中的重要性仅次于title标签,一般情况下，一个页面中只会有一个h1
+                一般情况下标题标签只会用到h1-h3,h4-h6很少用
+                标题都是块元素
+
+        在页面中独占一行的元素称为 块元素(block element)
+     -->
+     <h1>一级标题</h1>
+     <h2>二级标题</h2>
+     <h3>三级标题</h3>
+     <h4>四级标题</h4>
+     <h5>五级标题</h5>
+     <h6>六级标题</h6>
+     <!--
+         hgroup标签用来为标题分组，可以将一组相关的标题同时放入到hgroup,也是块元素
+       -->
+     <hgroup>
+        <h1>回乡偶书二首</h1>
+        <h2>其一</h2>
+     </hgroup>
+
+     <!-- 
+         p标签表示页面中的一个段落
+         p也是一个块元素
+      -->
+      <p>p标签表示页面中的一个段落</p>
+      <p>p标签表示页面中的一个段落</p>
+
+      <!-- 
+          em标签用于表示语音语调的一个加重
+          在页面中不会独占一行的元素称为行内元素（inline element）内联元素
+       -->
+      <p>今天天气<em>真</em>不错！</p>
+       <!-- 
+           strong表示强调，重要内容
+        -->
+      <p>你今天必须要<strong>完成作业</strong></p>
+      <!--blockqquote表示一个长引用  -->
+      鲁迅说：
+      <blockquote>
+          这句话不是我说的！
+      </blockquote>
+      <!-- q表示短引用 -->
+      子曰
+      <q>学而时习之，不亦说乎</q>
+      <br>
+      今天天气真不错
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: #fff;
+            margin-bottom: 100px;
+            /* 
+                overflow属性处理溢出元素：
+                可选值：
+                    visible，默认值，会溢出，在父元素外部显示
+                    hidden，溢出内容会被裁剪不会显示
+                    scroll,生成两个滚动条，通过滚动条来查看完整的内容
+                    auto，根据需要生成滚动条
+             */
+             overflow: scroll;
+             overflow-x: visible;
+             overflow-y: visible;
+        }
+        .box2{
+            width: 100px;
+            height: 400px;
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="box2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos culpa illum natus, repellendus autem adipisci totam sint iusto nihil molestias doloremque animi a voluptatum repudiandae, eaque perspiciatis ab. Tenetur, sequi!</div>
+    </div>
+</body>
+</html>

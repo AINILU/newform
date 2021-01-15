@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh"><!--zh是中文用en浏览器会提示是否翻译-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>实体</title>
+</head>
+<body>
+<p>
+    <!-- 网页中编写的多个空格默认情况会解析为一个空格
+        在html中，有时候不能直接书写一些特殊符号，比如多个空格，比如字母两边的大于和小于号
+        如果我们需要在网页中表现这些特殊符号，需要使用html中的实体（转义字符）
+        实体语法:
+            &实体的名字;
+            &nbsp;空格
+            &gt;大于号
+            &lt;小于号
+            &copy;版权符号
+    -->
+    <p>
+        sss sss         sss
+        今天天&nbsp;&nbsp;&nbsp;&nbsp;气不错！
+    </p>
+    <p>
+        a<b>c
+        a&lt;b&gt;c
+    </p>
+</p>
+</body>
+</html>
