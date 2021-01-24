@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* 
+            :link 用来表示没访问过的链接（正常的链接）
+         */
+        a:link{
+            font-size: 50px;
+            color: red;
+        }
+
+        /* 
+            :visited 用来表示访问过的链接
+
+            由于隐私的原因，所以visited这个伪类只能修改链接的颜色
+         */
+        a:visited{
+            font-size: 50px;
+            color: orange;
+        }
+        /* 
+            ：hover 用来表示鼠标移入的状态
+         */
+         a:hover{
+             color: aqua;
+             font-size: 50px;
+         }
+         /* 
+            :active 用来表示鼠标点击的状态
+          */
+         a:active{
+             color: yellowgreen;
+         }
+    </style>
 </head>
 <body>
-    
+    <!-- 
+        1.没访问过的链接
+        2.访问过的链接
+     -->
+    <a href="https://www.baidu.com">访问过的链接</a>
+    <br><br>
+    <a class="red" href="https://www.baidu123.com">未访问过的链接</a>
 </body>
 </html>
