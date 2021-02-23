@@ -1,0 +1,100 @@
+{
+  "id": "2384258",
+  "name": "try1",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "19970865",
+      "name": "首页",
+      "font_class": "shouye",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "19978511",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "19978517",
+      "name": "个人中心",
+      "font_class": "gerenzhongxin",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "19978614",
+      "name": "帮助中心",
+      "font_class": "bangzhuzhongxin",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "19978634",
+      "name": "撤回",
+      "font_class": "chehui",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "19978806",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e610",
+      "unicode_decimal": 58896
+    },
+    {
+      "icon_id": "19978961",
+      "name": "关闭、错误、取消",
+      "font_class": "guanbicuowu",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    },
+    {
+      "icon_id": "19978963",
+      "name": "添加",
+      "font_class": "tianjia",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "19978966",
+      "name": "上报",
+      "font_class": "shangbao",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "19979312",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e615",
+      "unicode_decimal": 58901
+    },
+    {
+      "icon_id": "19979346",
+      "name": "退出登录",
+      "font_class": "tuichudenglu",
+      "unicode": "e617",
+      "unicode_decimal": 58903
+    },
+    {
+      "icon_id": "19979416",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "19979748",
+      "name": "选中、成功",
+      "font_class": "xuanzhongchenggong",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    }
+  ]
+}
