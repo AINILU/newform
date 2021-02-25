@@ -1,119 +1,68 @@
 <!DOCTYPE html>
 <html lang="zh">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jd顶部导航条</title>
+    <title>jd导航复习</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./fa/css/all.css">
     <style>
-        .clearfix::after,
-        .clearfix::before {
+        .clearfix::before,
+        .clearfix::after{
             content: '';
             display: table;
             clear: both;
         }
-
-        body {
+        body{
             font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
         }
-
-        /* 设置外部容器样式 */
-        .top-bar-wrapper {
+        .top-bar-wrapper{
             width: 100%;
             background-color: #e3e4e5;
-            height: 30px;
+            /* height: 30px; */
             line-height: 30px;
             border-bottom: 1px solid #ddd;
         }
-
-        .top-bar {
-            /* 固定宽度 */
+        .top-bar{
             width: 1190px;
-            /* 设置水平居中 */
             margin: 0 auto;
-            position: relative;
-
         }
-
-        /* 设置字体颜色 */
         .top-bar a,
         .top-bar span,
-        .top-bar i {
+        .top-bar i{
             color: #999;
             text-decoration: none;
         }
-
         .top-bar a:hover,
-        .top-bar a.highlight{
+        .top-bar .highlight{
             color: #f10125;
         }
-        .location {
+
+        .location{
             float: left;
         }
-
-        /* 设置location下的小图标 */
         .location .fas{
-            font-size: 14px;
+            /* font-size: 14px; */
             color: #f10215;
         }
-        /* 设置城市列表效果 */
-        .location .city-list{
-            width: 320px;
-            height: 436px;
-            background-color: white;
-            display: none;
-            border: 1px solid rgb(204, 204, 204);
-            /* 设置绝对定位，让其不占据页面位置 */
-            position:absolute;
-            top: 31px;
-            box-shadow: 0 2px 2px rgba(0, 0, 0, .2);
-            z-index: 999;
-        }
-        /* 当鼠标移入location时，要让city-list显示 */
-        .location:hover .city-list{
-            display: block;
-        }
-        .current-city{
-            padding: 0 10px;
-            border: 1px solid transparent;
-            border-bottom: none;
-
-
-        }
-        /* 设置current-city移入效果 */
-        .location:hover .current-city{
-            background-color: white;
-            border: 1px solid rgb(204, 204, 204);
-            border-bottom: none;
-            padding-bottom: 1px;
-            position: relative;
-            z-index: 9999;
-
-        }
-        .shortcut {
+        .shortcut{
             float: right;
         }
-        /* 设置分割线 */
         .shortcut .line{
             width: 1px;
             height: 10px;
             background-color: #ccc;
             margin: 12px 12px 0;
         }
-
-        .shortcut li {
+        .shortcut li{
             float: left;
         }
-        .shortcut li .down{
+        .shortcut li .fas{
             margin-left: 7px;
         }
     </style>
-
 </head>
-
 <body>
     <div class="top-bar-wrapper">
         <div class="top-bar clearfix">
@@ -122,19 +71,12 @@
                     <i class="fas fa-map-marker-alt"></i>
                     <a href="javascript:;">江苏</a>
                 </div>
-
-                <!-- 放置城市列表的div -->
-                <div class="city-list">
-
-                </div>
             </div>
-
             <ul class="shortcut clearfix">
                 <li>
                     <a href="javascript:;">你好，请登录</a>
                     <a class="highlight" href="javascript:;">免费注册</a>
                 </li>
-
                 <li class="line"></li>
                 <li>
                     <a href="javascript:;">我的订单</a>
@@ -142,7 +84,7 @@
                 <li class="line"></li>
                 <li>
                     <a href="javascript:;">我的京东</a>
-                    <i class="down fas fa-angle-down"></i>
+                    <i class="fas fa-angle-down"></i>
                 </li>
                 <li class="line"></li>
                 <li>
@@ -151,17 +93,17 @@
                 <li class="line"></li>
                 <li>
                     <a class="highlight" href="javascript:;">企业采购</a>
-                    <i class="down fas fa-angle-down"></i>
+                    <i class="fas fa-angle-down"></i>
                 </li>
                 <li class="line"></li>
                 <li>
                     <span>客户服务</span>
-                    <i class="down fas fa-angle-down"></i>
+                    <i class="fas fa-angle-down"></i>
                 </li>
                 <li class="line"></li>
                 <li>
                     <span>网站导航</span>
-                    <i class="down fas fa-angle-down"></i>
+                    <i class="fas fa-angle-down"></i>
                 </li>
                 <li class="line"></li>
                 <li>
@@ -171,5 +113,4 @@
         </div>
     </div>
 </body>
-
 </html>
