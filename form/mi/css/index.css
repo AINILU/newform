@@ -367,3 +367,115 @@ ul.left-menu li a:hover{
 .prev-next .next:hover{
     background-position: -42px 0;
 }
+
+/* 设置回到顶部的元素 */
+.to-top{
+    width: 26px;
+    height: 206px;
+    background-color: #bfa;
+    /* 开启固定定位 */
+    position: fixed;
+    bottom: 60px;
+    /* right: 60px; */
+    /* 将right值设置为视口宽度的50% */
+    right: 50%;
+    margin-right:  -639px;
+    /* 
+        布局的等式
+            left + margin-left + width +margin-right + right = 视口宽度
+
+            auto + 0 + 26 + 0 + 60 =视口宽度
+
+            auto + 0 + 26 + 0 + 50% =视口宽度
+    */
+}
+
+/* 设置下部广告区域 */
+.fun-bar{
+    height: 170px;
+    margin-top: 14px;
+}
+.fun-bar .shortcut,
+.fun-bar .ad-img,
+.fun-bar li{
+    float: left;
+}
+
+/* 设置功能栏 */
+.fun-bar .shortcut{
+    width: 228px;
+    height: 168px;
+    background-color: #5f5750;
+    /* margin-right: 14px; */
+    margin-right: -1px;
+    padding-top: 2px;
+    padding-left: 6px;
+}
+
+.fun-bar .shortcut li{
+    position: relative;
+}
+/* 设置上边线 */
+.fun-bar .shortcut li::before{
+    content: '';
+    position: absolute;
+    width: 64px;
+    height: 1px;
+    background-color: #665e57;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+
+}
+
+/* 设置左边线 */
+.fun-bar .shortcut li::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 70px;
+    background-color: #665e57;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto 0;
+
+}
+
+/* 设置工具栏超链接 */
+.fun-bar .shortcut a{
+    display: block;
+    color: #cfccca;
+    height: 84px;
+    width: 76px;
+    text-align: center;
+    font-style: 12px;
+    overflow: hidden;
+}
+.fun-bar .shortcut a:hover{
+    color: #fff;
+}
+
+/* 设置图标字体 */
+.fun-bar .shortcut i{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-style: 20px;
+}
+
+/* 设置左侧的图片 */
+.fun-bar .ad-img li{
+    width: 316px;
+    /* margin-right: 15px; */
+    margin-left: 15px;
+}
+/* .fun-bar .ad-img li:last-child{
+    width: 316px;
+    margin: 0;
+} */
+.fun-bar .ad-img img{
+    width: 100%;
+    vertical-align: top;
+}
