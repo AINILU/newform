@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            perspective: 800px;
+        }
+        body{
+            border: 1px solid #000;
+            background-color: silver;
+            height: 1000px;
+        }
+        img{
+            width: 320px;
+            height: 320px;
+        }
+        div{
+            transition: 2s;
+            width: 320px;
+            height: 320px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+        .box1{
+            /* 设置是否显示元素的背面 */
+            backface-visibility: hidden;
+
+        }
+        .box2{
+            transform: rotateY(180deg);
+            backface-visibility: hidden;
+        }
+        body:hover .box1{
+            /* 
+                通过旋转可以使元素沿着x y 或 z 轴旋转指定角度
+                    rotateX(180deg)
+                    rotateY()
+                    rotateZ()
+             */
+            /* transform: rotateZ(.5turn); */
+            /* transform: rotateY(180deg) translateZ(400px); */
+            /* transform: translateZ(400px) rotateY(180deg) ; */
+            transform: rotateY(180deg);
+
+        }
+        body:hover .box2{
+            transform: rotateY(360deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <img src="./an.webp" alt="">
+    </div>
+    <div class="box2">
+        <img src="./2.webp" alt="">
+    </div>
+</body>
+</html>
